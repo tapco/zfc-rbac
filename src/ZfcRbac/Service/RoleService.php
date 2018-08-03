@@ -178,7 +178,7 @@ class RoleService
      * @param  array|Traversable $roles
      * @return RoleInterface[]
      */
-    protected function convertRoles($roles)
+    public function convertRoles($roles)
     {
         if ($roles instanceof Traversable) {
             $roles = iterator_to_array($roles);
@@ -215,7 +215,7 @@ class RoleService
      * @param  array|RoleInterface[] $roles
      * @return string[]
      */
-    protected function flattenRoles(array $roles)
+    public function flattenRoles(array $roles)
     {
         $roleNames = [];
         $iterator  = $this->traversalStrategy->getRolesIterator($roles);
