@@ -18,7 +18,7 @@
 
 namespace ZfcRbac\Identity;
 
-use Zend\Authentication\AuthenticationServiceInterface;
+use Laminas\Authentication\AuthenticationServiceInterface;
 
 /**
  * This provider uses the Zend authentication service to fetch the identity

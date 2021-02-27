@@ -18,7 +18,7 @@
 namespace ZfcRbacTest\Factory;
 
 use Interop\Container\ContainerInterface;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 use ZfcRbac\Factory\AuthorizationServiceDelegatorFactory;
 use ZfcRbacTest\Initializer\AuthorizationAwareFake;
 use ZfcRbacTest\Util\ServiceManagerFactory;
